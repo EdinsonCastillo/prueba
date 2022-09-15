@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../image/enfermera.webp) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 90vh;
+}
+
+.login-box {
+    width: 680px;
+    height: 440px;
+    background: rgb(192, 222, 232);
+    color: #fff;
+    top: 38%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-70%, -30%);
+    box-sizing: border-box;
+    padding: 70px 30px ;
+}
+
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box table{
+    width:100%;
+    border-collapse: separate;
+}
+
+ .login-box th, td{
+     text-align:left;
+     padding: 1px;
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box select {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background: #afd1d1;
+    border-bottom: 1px solid #fff;
+    display: block;
+
+}
+
+.login-box label {
+    margin: 100;
+    padding: 0;
+    background: transparent;
+    color: rgb(98, 97, 97);
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="number"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(26, 25, 25);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.login-box input[id="tipo"]{
+    color: rgb(16, 4, 86);
+    font-size: 16px;
+}
+
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #474da5;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+    position: absolute;
+    width: 50%;
+    left: calc(30% - 40px);
+}
+
+
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #db431d;
+    color: rgb(0, 0, 0);
+}
+
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(180, 167, 167);
+}
+
+.login-box a:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
